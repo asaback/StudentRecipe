@@ -1,0 +1,107 @@
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a {
+    color: black;
+    font-size: 36px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+ 
+#circle {
+    position: relative;
+    width: 30vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 25px solid rgb(0, 0, 0); 
+    text-align: center; 
+    box-shadow: 5px 5px 4px rgba(141, 140, 140, 0.3);
+    padding-top: 20%;
+}
+
+.circle-container {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.forknknife {
+    height: 30vw;
+}
+
+#vegetarianLasagne {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+#kaleSalad {
+    
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+
+#tacoGratin {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+
+#creamyPasta {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+
+#broccoliSoup {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+
+#tomatoPasta {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
+
+#veganBeet {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 34.45vw;
+    top: 1.7vw;
+    display: none;
+}
