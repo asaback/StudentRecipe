@@ -1,17 +1,26 @@
+var tacoGratin = '<a href="https://www.undertian.com/recept/tacogratang-med-majstopping/">TACO GRATIN</a>';
+var kaleSalad = '<a href="https://undertian.com/recept/gronkalssallad-med-dill-och-kikartor/">KALE SALAD <br> WITH DILL</a>';
+var zucchiniPasta = '<a href="https://www.undertian.com/recept/kramig-zucchini-och-svamppasta/">ZUCCHINI AND <br> MUSHROOM PASTA</a>';
+var broccoliSoup = '<a href= "https://www.undertian.com/recept/billig-broccolisoppa-med-picklad-rodlok/">BROCCOLI SOUP</a>';
+var vegetarianLasagne = '<a href="https://www.undertian.com/recept/billig-vegetarisk-lasagne/">VEGETARIAN <br> LASANGE</a>';
+var tomatoPasta = '<a href= "https://www.undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/">TOMATO PASTA</a>';
+var veganBeet = '<a href= "https://www.undertian.com/recept/veganska-rodbetsbiffar/">VEGAN BEET <br> STEAKS</a>';
+
+
 var randomAnswers= [
-    '<a href="https://www.undertian.com/recept/tacogratang-med-majstopping/">Taco gratin with corn topping</a>',
+    tacoGratin,
    
-    '<a href="https://undertian.com/recept/gronkalssallad-med-dill-och-kikartor/">Kale salad with dill and chickpeas</a>',
+    kaleSalad,
 
-    '<a href="https://www.undertian.com/recept/kramig-zucchini-och-svamppasta/">Creamy zucchini and mushroom pasta</a>',
+    zucchiniPasta,
 
-    '<a href= "https://www.undertian.com/recept/billig-broccolisoppa-med-picklad-rodlok/">Broccoli soup with pickled red onion</a>',
+    broccoliSoup,
     
-    '<a href="https://www.undertian.com/recept/billig-vegetarisk-lasagne/">Vegetarian lasagne</a>',
+    vegetarianLasagne,
     
-    '<a href= "https://www.undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/">Tomato pasta with roasted chickpeas</a>',
+    tomatoPasta,
     
-    '<a href= "https://www.undertian.com/recept/veganska-rodbetsbiffar/">Vegan beet steaks</a>',
+    veganBeet,
     
     ];
     
@@ -19,7 +28,7 @@ var randomAnswers= [
         var randomAnswer = randomAnswers[Math.floor(Math.random()*randomAnswers.length)];
         document.getElementById('display').innerHTML= randomAnswer;
 
-        if (randomAnswer=== '<a href="https://www.undertian.com/recept/billig-vegetarisk-lasagne/">Vegetarian lasagne</a>') {
+        if (randomAnswer=== vegetarianLasagne) {
             document.getElementById('vegetarianLasagne').style.display = "block";
             document.getElementById('kaleSalad').style.display = "none";
             document.getElementById('tacoGratin').style.display = "none";
@@ -29,7 +38,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none";
         }
 
-        else if (randomAnswer=== '<a href="https://undertian.com/recept/gronkalssallad-med-dill-och-kikartor/">Kale salad with dill and chickpeas</a>') {
+        else if (randomAnswer=== kaleSalad) {
             document.getElementById('kaleSalad').style.display = "block";
             document.getElementById('vegetarianLasagne').style.display = "none";
             document.getElementById('tacoGratin').style.display = "none";
@@ -39,7 +48,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none";
         }
 
-        else if (randomAnswer=== '<a href="https://www.undertian.com/recept/tacogratang-med-majstopping/">Taco gratin with corn topping</a>') {
+        else if (randomAnswer=== tacoGratin) {
             document.getElementById('tacoGratin').style.display = "block";
             document.getElementById('kaleSalad').style.display = "none";
             document.getElementById('vegetarianLasagne').style.display = "none";
@@ -49,7 +58,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none"; 
         }
 
-        else if (randomAnswer=== '<a href="https://www.undertian.com/recept/kramig-zucchini-och-svamppasta/">Creamy zucchini and mushroom pasta</a>') {
+        else if (randomAnswer=== zucchiniPasta) {
             document.getElementById('creamyPasta').style.display = "block";    
             document.getElementById('tacoGratin').style.display = "none";
             document.getElementById('kaleSalad').style.display = "none";
@@ -59,7 +68,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none";
         }
 
-        else if (randomAnswer=== '<a href= "https://www.undertian.com/recept/billig-broccolisoppa-med-picklad-rodlok/">Broccoli soup with pickled red onion</a>') {
+        else if (randomAnswer=== broccoliSoup) {
             document.getElementById('broccoliSoup').style.display = "block"; 
             document.getElementById('creamyPasta').style.display = "none";    
             document.getElementById('tacoGratin').style.display = "none";
@@ -69,7 +78,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none";
         }
 
-        else if (randomAnswer=== '<a href= "https://www.undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/">Tomato pasta with roasted chickpeas</a>') {
+        else if (randomAnswer=== tomatoPasta) {
             document.getElementById('tomatoPasta').style.display = "block";
             document.getElementById('broccoliSoup').style.display = "none"; 
             document.getElementById('creamyPasta').style.display = "none";    
@@ -79,7 +88,7 @@ var randomAnswers= [
             document.getElementById('veganBeet').style.display = "none";
         }
 
-        else if (randomAnswer=== '<a href= "https://www.undertian.com/recept/veganska-rodbetsbiffar/">Vegan beet steaks</a>') {
+        else if (randomAnswer=== veganBeet) {
             document.getElementById('veganBeet').style.display = "block";
             document.getElementById('tomatoPasta').style.display = "none";
             document.getElementById('broccoliSoup').style.display = "none"; 

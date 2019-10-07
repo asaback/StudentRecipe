@@ -1,20 +1,46 @@
-#button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url(dukdeluxe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 740px;
+
 }
 
+#button {
+    text-align: center;
+    font-family: Splatch;
+    transform: rotate(350deg);
+    font-size: 26px;
+
+}
+
+#button:hover {
+    cursor: pointer;
+}
 
 #display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    text-align: center;
+    font-family: Splatch;
+    text-decoration: none;
+    opacity: 0;
+    font-size: 20px;
+}
+
+#generate-button {
+    width: 200px;
     
 }
 
 a {
-    color: black;
-    font-size: 36px;
+    color: white;
+    font-size: 16px;
+    font-family: Splatch;
+    text-decoration: none;
+   
 }
 
 a:hover {
@@ -30,6 +56,7 @@ a:hover {
     text-align: center; 
     box-shadow: 5px 5px 4px rgba(141, 140, 140, 0.3);
     padding-top: 20%;
+    background-color: #000;
 }
 
 .circle-container {
@@ -47,7 +74,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -56,7 +83,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -65,7 +92,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -74,7 +101,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -83,7 +110,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -92,7 +119,7 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
 }
@@ -101,7 +128,33 @@ a:hover {
     width: 30vw;
     height: auto;
     position: absolute;
-    left: 34.45vw;
+    left: 35vw;
     top: 1.7vw;
     display: none;
+}
+
+h1 {
+    font-family: Splatch;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+    
+}
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(Splatch.ttf) format("truetype");
+}
+
+.circle-container:hover .cheapFood{
+    filter: blur(5px);
+}
+
+.cheapFood {
+    transition: .3s ease;
+    backface-visibility: hidden;
+}
+
+.circle-container:hover #display {
+    opacity: 1;
 }
