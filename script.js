@@ -36,14 +36,21 @@ var randomAnswers= [
         name: 'VEGAN BEET <br> STEAKS',
         link: 'https://www.undertian.com/recept/veganska-rodbetsbiffar/',
         image: 'vegbee.png',
-    }
-  
+    } 
 ];
     
-     document.getElementById('button').onclick=function() {
+    function getRandomFood() {
         var randomAnswer = randomAnswers[Math.floor(Math.random()*randomAnswers.length)];
         document.getElementById('display').innerHTML= randomAnswer.name;
         document.getElementById('display').href = randomAnswer.link;
+        document.getElementById('displayImage').href = randomAnswer.link;
         document.getElementById('recipeImage').src = randomAnswer.image;
 
-}
+    }
+
+    getRandomFood();
+
+    document.getElementById('button').onclick=function() {
+        getRandomFood();
+
+    }
