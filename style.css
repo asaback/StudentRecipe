@@ -21,18 +21,14 @@ body {
 
 #display {
     position: absolute;
-    top: 45%;
-    left: 44%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-family: Splatch;
     text-decoration: none;
     opacity: 0;
     font-size: 20px;
-}
-
-#generate-button {
-    width: 200px;
-    
 }
 
 a {
@@ -54,84 +50,30 @@ a:hover {
     border-radius: 50%;
     border: 25px solid rgb(0, 0, 0); 
     text-align: center; 
-    box-shadow: 5px 5px 4px rgba(141, 140, 140, 0.3);
     padding-top: 20%;
     background-color: #000;
 }
 
-.circle-container {
+.displayContainer {
     display: flex;
     position: relative;
     text-align: center;
     justify-content: center;
 }
 
-.forknknife {
+.displaySides {
     height: 30vw;
 }
 
-#vegetarianLasagne {
+#recipeImage {
     width: 30vw;
-    height: auto;
+    height: 30vw;
     position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
-#kaleSalad {
-    
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#tacoGratin {
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
-
-#creamyPasta {
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
-
-#broccoliSoup {
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
-
-#tomatoPasta {
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
-
-#veganBeet {
-    width: 30vw;
-    height: auto;
-    position: absolute;
-    left: 35vw;
-    top: 1.7vw;
-    display: none;
-}
 
 h1 {
     font-family: Splatch;
@@ -146,7 +88,7 @@ h1 {
     src: url(Splatch.ttf) format("truetype");
 }
 
-.circle-container:hover .cheapFood{
+.displayContainer:hover #recipeImage{
     filter: blur(5px);
 }
 
@@ -155,6 +97,6 @@ h1 {
     backface-visibility: hidden;
 }
 
-.circle-container:hover #display {
+.displayContainer:hover #display {
     opacity: 1;
 }
