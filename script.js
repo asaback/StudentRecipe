@@ -1,10 +1,3 @@
-// var tacoGratin = '<a href="https://www.undertian.com/recept/tacogratang-med-majstopping/">TACO GRATIN</a>';
-// var kaleSalad = '<a href="https://undertian.com/recept/gronkalssallad-med-dill-och-kikartor/">KALE SALAD <br> WITH DILL</a>';
-// var zucchiniPasta = '<a href="https://www.undertian.com/recept/kramig-zucchini-och-svamppasta/">ZUCCHINI AND <br> MUSHROOM PASTA</a>';
-// var broccoliSoup = '<a href= "https://www.undertian.com/recept/billig-broccolisoppa-med-picklad-rodlok/">BROCCOLI SOUP</a>';
-// var vegetarianLasagne = '<a href="https://www.undertian.com/recept/billig-vegetarisk-lasagne/">VEGETARIAN <br> LASANGE</a>';
-// var tomatoPasta = '<a href= "https://www.undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/">TOMATO PASTA</a>';
-// var veganBeet = '<a href= "https://www.undertian.com/recept/veganska-rodbetsbiffar/">VEGAN BEET <br> STEAKS</a>';
 
 var randomAnswers= [
     {
