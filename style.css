@@ -1,9 +1,10 @@
 body {
-    background-image: url(dukdeluxe.png);
+    background-image: url(https://cdn7.dissolve.com/p/D2115_198_929/D2115_198_929_1200.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
     height: 740px;
+    
 
 }
 
@@ -29,6 +30,7 @@ body {
     text-decoration: none;
     opacity: 0;
     font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(238, 238, 238, 0.40);
 }
 
 a {
@@ -41,7 +43,7 @@ a {
 a:hover {
     cursor: pointer;
 }
- 
+
 #circle {
     position: relative;
     width: 30vw;
@@ -58,6 +60,7 @@ a:hover {
     position: relative;
     text-align: center;
     justify-content: center;
+    
 }
 
 .displaySides {
@@ -75,12 +78,28 @@ a:hover {
 }
 
 
+
 h1 {
     font-family: Splatch;
     text-align: center;
-    font-size: 55px;
+    font-size: 300%;
     margin-top: 20px;
-    
+}
+
+
+h2 {
+    margin-top: -10px;
+}
+
+h3 {
+    position: absolute;
+    font-size: 200%;
+    font-weight: 800;
+    transform: rotate(340deg);
+    margin-top: -40px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 @font-face {
@@ -88,16 +107,20 @@ h1 {
     src: url(Splatch.ttf) format("truetype");
 }
 
-.displayContainer:hover #recipeImage{
-    filter: blur(5px);
-    border-radius: 50%;
-}
+
 
 .cheapFood {
     transition: .3s ease;
     backface-visibility: hidden;
 }
 
-.displayContainer:hover #display {
+.displayMain:hover #display {
     opacity: 1;
 }
+
+.displayMain:hover #recipeImage{
+    filter: blur(5px);
+    border-radius: 50%;
+}
+
+
