@@ -1,6 +1,6 @@
 body {
     background-image: url(https://cdn7.dissolve.com/p/D2115_198_929/D2115_198_929_1200.jpg);
-    background-repeat: no-repeat;
+   
     background-size: cover;
     margin: 0px;
     height: 740px;
@@ -10,7 +10,7 @@ body {
 
 #button {
     text-align: center;
-    font-family: Splatch;
+    font-family: 'Fredericka the Great', cursive;
     transform: rotate(350deg);
     font-size: 26px;
 
@@ -26,7 +26,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: Splatch;
+    font-family: 'Fredericka the Great', cursive;
     text-decoration: none;
     opacity: 0;
     font-size: 20px;
@@ -36,7 +36,7 @@ body {
 a {
     color: black;
     font-size: 16px;
-    font-family: Splatch;
+    font-family: 'Fredericka the Great', cursive;
     text-decoration: none; 
 }
 
@@ -80,7 +80,7 @@ a:hover {
 
 
 h1 {
-    font-family: Splatch;
+    font-family: 'Fredericka the Great', cursive;
     text-align: center;
     font-size: 300%;
     margin-top: 20px;
@@ -93,12 +93,12 @@ h2 {
 
 h3 {
     position: absolute;
-    font-size: 200%;
+    font-size: 2.3vw;
     font-weight: 800;
     transform: rotate(340deg);
     margin-top: -40px;
     margin-left: 90px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', cursive;
 
 }
 
@@ -124,3 +124,10 @@ h3 {
 }
 
 
+/* @media only screen and (max-width: 600px) {
+    h3 {
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: -20px;
+    }
+} */
