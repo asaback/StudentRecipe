@@ -97,16 +97,10 @@ h3 {
     font-weight: 800;
     transform: rotate(340deg);
     margin-top: -40px;
-    margin-left: 90px;
+    margin-left: 50px;
     font-family: 'Fredericka the Great', cursive;
 
 }
-
-@font-face {
-    font-family: "My Custom Font";
-    src: url(Splatch.ttf) format("truetype");
-}
-
 
 
 .cheapFood {
