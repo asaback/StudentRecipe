@@ -34,6 +34,7 @@ body {
     background-color: white;
     border-radius: 8px;
     padding: 0.8%;
+    transition: .3s ease;
 }
 
 a {
@@ -78,6 +79,7 @@ a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    transition: .3s ease;
 }
 
 
@@ -97,6 +99,7 @@ h2 {
     margin: 0 auto;
     width: 500px;
     margin-bottom: 30px;
+    transition: .3s ease;
 }
 
 h2:hover {
