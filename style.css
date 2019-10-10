@@ -12,8 +12,6 @@ body {
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
     transform: rotate(350deg);
-    font-size: 26px;
-
 }
 
 #button:hover {
@@ -51,11 +49,10 @@ a:hover {
 #circle {
     position: relative;
     width: 30vw;
-    height: 10vw;
+    height: 30vw;
     border-radius: 50%;
     border: 1.8vw solid rgb(0, 0, 0); 
     text-align: center; 
-    padding-top: 20%;
     background-color: #000;
 }
 
@@ -87,7 +84,7 @@ a:hover {
 h1 {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 300%;
+    font-size: 4vw;
     margin-top: 20px;
 }
 
@@ -97,9 +94,10 @@ h2 {
     text-shadow: 0px 4px 4px rgba(29, 29, 29, 0.445);
     display: block;
     margin: 0 auto;
-    width: 500px;
+    width: 20vw;
     margin-bottom: 30px;
     transition: .3s ease;
+    font-size: 1.9vw;
 }
 
 h2:hover {
@@ -112,8 +110,8 @@ h3 {
     font-size: 2.3vw;
     font-weight: 800;
     transform: rotate(340deg);
-    margin-top: -40px;
-    margin-left: 50px;
+    margin-top: -4vw;
+    margin-left: 5vw;
     font-family: 'Fredericka the Great', cursive;
 
 }
@@ -133,8 +131,59 @@ h3 {
 }
 
 
-@media (max-width: 640px) {
+/* @media (max-width: 500px) {
     .displaySides {
       opacity: 0;
+    }
+  } */
+
+  @media (max-width: 500px) {
+    #recipeImage {
+       
+        width: 55vw;
+        height: 55vw;
+    }
+  }
+
+  @media (max-width: 500px) {
+    #circle {
+        
+        width: 55vw;
+        height: 55vw;
+        
+    }
+  }
+
+  @media (max-width: 500px) {
+    .displaySides {
+        opacity: 0;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+    h2 {
+        font-size: 3vw;
+        margin-bottom: 8vw;
+        margin-top: 8vw;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+    h1 {
+        font-size: 6vw;
+        
+    }
+  }
+
+
+ @media (max-width: 500px) {
+    h3 {
+        left: 25%;
+        top: 50%;
+        margin: 0px;
+       transform: rotate(0deg);
+       font-size: 5vw;
     }
   }
